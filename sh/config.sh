@@ -4,6 +4,9 @@ alias zprofile="code /Users/edwintorres/.zprofile"
 alias hosts="sudo code /etc/hosts"
 alias ll="ls -la"
 
+## My Paths
+alias mydev="cd /Users/codesandtags/Documents/codesandtags-code"
+
 # Python
 alias python="/usr/local/bin/python3"
 alias pip="/usr/local/bin/pip3"
