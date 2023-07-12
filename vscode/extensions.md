@@ -1,6 +1,6 @@
 # Extensions
 
-These are the extensions I use in VSCode. I have a few more installed, but these are the ones I use the most.
+These are the extensions I use in VSCode. I have a few more installed, but these are the ones I use the most. To use my settings, just go to "Profiles", select "Import profile..." and finally choose the `codesandtags.code-profile` file.
 
 ## Theme
 
