@@ -1,0 +1,25 @@
+{
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "quokka.compactMessageOutput": true,
+  "editor.tabSize": 2,
+  "git.autofetch": true,
+  "workbench.colorTheme": "Cobalt2",
+  "editor.minimap.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "prettier.documentSelectors": ["*.js", "*.ts", "*.css"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.enableSmartCommit": true,
+  "editor.formatOnSave": true,
+  "github.copilot.advanced": {},
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "window.zoomLevel": 1
+}
