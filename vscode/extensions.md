@@ -25,3 +25,7 @@ These are the extensions I use in VSCode. I have a few more installed, but these
 - [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Svg Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview)
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+
+## Git
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)

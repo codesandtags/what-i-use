@@ -1,11 +1,11 @@
 # Utils
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
-alias zprofile="code /Users/edwintorres/.zprofile"
+alias zprofile="code /Users/$USER/.zshrc"
 alias hosts="sudo code /etc/hosts"
 alias ll="ls -la"
 
 ## My Paths
-alias mydev="cd /Users/codesandtags/Documents/codesandtags-code"
+alias mydev="cd /Users/$USER/Documents/codesandtags-code"
 
 # Python
 alias python="/usr/local/bin/python3"
