@@ -145,3 +145,22 @@ nav h1 {
   font-size: 1.5rem;
   color: var(--color-text);
 }
+
+#footer {
+  padding: 3rem 0;
+  text-align: center;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+#footer a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#footer img {
+  vertical-align: middle;
+  margin-left: 5px;
+}
