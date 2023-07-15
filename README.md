@@ -22,6 +22,14 @@ To get a complete list of my configuration files, check out my [configs](./confi
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Theme: [Cobalt2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
 
+### Study and learning
+
+- [O'Reilly](https://www.oreilly.com/)
+- [Fireship](https://fireship.io/)
+- [ZeroToMastery](https://zerotomastery.io/)
+- [Audible](https://www.audible.com/)
+- [Platzi](https://platzi.com/)
+
 ### Editing video
 
 - [iMovie](https://www.apple.com/imovie/)

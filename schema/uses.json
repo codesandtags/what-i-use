@@ -1,0 +1,148 @@
+{
+  "Software": {
+    "🧑‍💻 Development": [
+      {
+        "name": "Visual Studio Code",
+        "url": "https://code.visualstudio.com/",
+        "description": "Since 3 years ago I moved from IntelliJ to VSCode."
+      },
+      {
+        "name": "iTerm2",
+        "url": "https://www.iterm2.com/",
+        "description": "I use iTerm2 as my terminal emulator."
+      },
+      {
+        "name": "Warp",
+        "url": "https://www.warp.dev/",
+        "description": "I use Warp to manage my local development environment as an alternative to iTerm2."
+      },
+      {
+        "name": "Postman",
+        "url": "https://www.postman.com/",
+        "description": "I use Postman to test my APIs."
+      },
+      {
+        "name": "Docker Desktop",
+        "url": "https://www.docker.com/products/docker-desktop",
+        "description": "I use Docker Desktop to run my local docker containers or pods on Kubernetes."
+      },
+      {
+        "name": "Chrome",
+        "url": "https://www.google.com/chrome/",
+        "description": "I use Chrome as my default browser."
+      }
+    ],
+    "🎬 Video": [
+      {
+        "name": "iMovie",
+        "url": "https://www.apple.com/imovie/",
+        "description": "I use iMovie to edit my videos."
+      },
+      {
+        "name": "invideo",
+        "url": "https://invideo.io/",
+        "description": "I use invideo to create my videos."
+      },
+      {
+        "name": "OBS",
+        "url": "https://obsproject.com/",
+        "description": "I use OBS to record my videos."
+      }
+    ]
+  },
+  "Hardware": {
+    "💻 Computer": [
+      {
+        "name": "MacBook Pro 2015",
+        "url": "https://support.apple.com/kb/SP715?locale=en_US",
+        "description": "I use a MacBook Pro 2015 as my main computer."
+      }
+    ],
+    "📱 Phone": [
+      {
+        "name": "iPhone 14",
+        "url": "https://www.apple.com/iphone-14/",
+        "description": "I use an iPhone 14 as my main phone."
+      }
+    ],
+    "📱 Tablet": [
+      {
+        "name": "iPad Pro 11",
+        "url": "https://www.apple.com/ipad-pro/",
+        "description": "I use an iPad Pro 11 as my main tablet."
+      }
+    ],
+    "⌚️ Watch": [
+      {
+        "name": "Garmin Venu 2",
+        "url": "https://buy.garmin.com/en-US/US/p/724386",
+        "description": "I use a Garmin Venu 2 as my main watch and for my sports."
+      }
+    ],
+    "🎧 Headphones": [
+      {
+        "name": "Sony WH-CH700N",
+        "url": "https://www.sony.com/electronics/headband-headphones/wh-ch700n",
+        "description": "I use Sony WH-CH700N as my main headphones."
+      }
+    ]
+  },
+  "Configurations": {
+    "💻 VS Code Extensions": [
+      {
+        "name": "Cobalt2 Theme Official",
+        "url": "https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2",
+        "description": "I use Cobalt2 Theme Official as my VS Code theme."
+      },
+      {
+        "name": "Material Icon Theme",
+        "url": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme",
+        "description": "I use Material Icon Theme as my VS Code icons theme."
+      },
+      {
+        "name": "Prettier - Code formatter",
+        "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+        "description": "I use Prettier - Code formatter as my VS Code formatter."
+      },
+      {
+        "name": "Code Runner",
+        "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner",
+        "description": "I use Code Runner as my VS Code code runner."
+      },
+      {
+        "name": "Markdown All in One",
+        "url": "https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one",
+        "description": "I use Markdown All in One as my VS Code markdown editor."
+      },
+      {
+        "name": "Markdownlint",
+        "url": "https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint",
+        "description": "I use Markdownlint as my VS Code markdown linter."
+      },
+      {
+        "name": "Live Preview",
+        "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server",
+        "description": "I use Live Preview as my VS Code live preview HTML."
+      }
+    ]
+  },
+  "Others": {
+    "📚 Study and Learning": [
+      {
+        "name": "O'Reilly",
+        "url": "https://www.oreilly.com/",
+        "description": "I use O'Reilly to learn new technologies and reports."
+      },
+      {
+        "name": "Fireship",
+        "url": "https://fireship.io/",
+        "description": "I watch the Fireship's weekly videos."
+      },
+      {
+        "name": "Platzi",
+        "url": "https://platzi.com/",
+        "description": "I often watch platzi's youtube videos to stay up to date in some topics"
+      }
+    ]
+  }
+}
