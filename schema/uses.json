@@ -147,6 +147,23 @@
         "name": "Platzi",
         "url": "https://platzi.com/",
         "description": "I often watch platzi's youtube videos to stay up to date in some topics"
+      },
+      {
+        "name": "Duolingo",
+        "url": "https://www.duolingo.com/",
+        "description": "I use Duolingo to learn new languages."
+      }
+    ],
+    "✅ Productivity": [
+      {
+        "name": "TodoIst",
+        "url": "https://todoist.com/",
+        "description": "I use TodoIst to manage my tasks and connect it with my Google Calendar."
+      },
+      {
+        "name": "Raycast",
+        "url": "https://www.raycast.com/",
+        "description": "Recently I've started using raycast to automate some workflows and snipets on my Macbook."
       }
     ]
   }

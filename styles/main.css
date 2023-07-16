@@ -12,14 +12,14 @@ html {
 /* Root Styles */
 :root {
   /* Light mode */
-  --color-background: #ffffff;
+  --color-background: #eee;
   --color-text: #333333;
   --color-secondary-text: #666666;
   --color-border: #dddddd;
   --color-link: #0066cc;
   --color-card: #f5f5f5;
-  --color-category-title-bg: #ddd;
-  --color-category-title-text: #000;
+  --color-category-title-bg: #333;
+  --color-category-title-text: #eee;
 }
 
 body {
@@ -34,7 +34,7 @@ body.dark-mode {
   --color-text: #ffffff;
   --color-secondary-text: #cccccc;
   --color-border: #444444;
-  --color-link: #88aaff;
+  --color-link: #fbb51e;
   --color-card: #444444;
   --color-category-title-bg: #222;
   --color-category-title-text: rgb(51, 214, 51);
@@ -57,7 +57,7 @@ h2 {
 }
 
 nav h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 .header-image img {
@@ -107,9 +107,27 @@ nav h1 {
   background-color: var(--color-card);
 }
 
+/** Category Animation Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.category {
+  /* other styles ... */
+  opacity: 0; /* Make the category initially invisible */
+  animation-name: fadeIn;
+  animation-duration: 2s; /* Control duration of animation */
+  animation-fill-mode: forwards; /* Keep the end state of the animation */
+}
+
 .category-title,
 .subcategory-title {
-  padding: 10px;
+  padding: 10px 20px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -120,6 +138,7 @@ nav h1 {
 }
 
 .subcategory-title {
+  padding: 10px;
   font-size: 16px;
 }
 
@@ -137,7 +156,6 @@ nav h1 {
   font-size: 16px;
   color: var(--color-text);
   text-decoration: none;
-  margin-bottom: 0.5rem;
 }
 
 .item-title:hover {
