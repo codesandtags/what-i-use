@@ -9,6 +9,7 @@ html {
   font-size: 10px;
 }
 
+/* Root Styles */
 :root {
   /* Light mode */
   --color-background: #ffffff;
@@ -23,9 +24,6 @@ html {
 
 body {
   font-family: Roboto, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   background-color: var(--color-background);
   color: var(--color-text);
 }
@@ -42,6 +40,7 @@ body.dark-mode {
   --color-category-title-text: rgb(51, 214, 51);
 }
 
+/* Main Container Styles */
 #main-container,
 #header-container {
   width: 100%;
@@ -51,6 +50,7 @@ body.dark-mode {
   padding: 20px;
 }
 
+/* Header Styles */
 h1,
 h2 {
   font-family: "Bebas Neue", sans-serif;
@@ -60,6 +60,42 @@ nav h1 {
   font-size: 4rem;
 }
 
+.header-image img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.header-text {
+  margin-top: 1rem;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+/* Banner Styles */
+#top-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-border);
+}
+
+#top-banner a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.dark-mode-icon {
+  font-size: 2rem;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+/* Category and Subcategory Styles */
 .category {
   width: 100%;
   max-width: 800px;
@@ -91,6 +127,7 @@ nav h1 {
   padding: 10px;
 }
 
+/* Item Styles */
 .item {
   border-top: 1px solid var(--color-border);
   padding: 10px;
@@ -100,52 +137,20 @@ nav h1 {
   font-size: 16px;
   color: var(--color-text);
   text-decoration: none;
+  margin-bottom: 0.5rem;
 }
 
-.item-url {
-  font-size: 14px;
+.item-title:hover {
   color: var(--color-link);
-  text-decoration: none;
 }
 
 .item-description {
+  padding: 0.6rem 0;
   font-size: 14px;
   color: var(--color-secondary-text);
 }
 
-#top-banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: var(--color-border);
-}
-
-#top-banner a {
-  color: var(--color-text);
-  text-decoration: none;
-}
-
-.dark-mode-icon {
-  font-size: 2rem;
-  color: var(--color-text);
-  cursor: pointer;
-}
-
-.header-image img {
-  border-radius: 50%;
-  width: 100%;
-  max-width: 150px;
-  max-height: 150px;
-}
-
-.header-text {
-  margin-top: 1rem;
-  padding: 1rem 0;
-  font-size: 1.5rem;
-  color: var(--color-text);
-}
-
+/* Footer Styles */
 #footer {
   padding: 3rem 0;
   text-align: center;
