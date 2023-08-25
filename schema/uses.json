@@ -34,11 +34,6 @@
     ],
     "🎬 Video": [
       {
-        "name": "iMovie",
-        "url": "https://www.apple.com/imovie/",
-        "description": "I use iMovie to edit my videos."
-      },
-      {
         "name": "invideo",
         "url": "https://invideo.io/",
         "description": "I use invideo to create my videos."
@@ -47,6 +42,11 @@
         "name": "OBS",
         "url": "https://obsproject.com/",
         "description": "I use OBS to record my videos."
+      },
+      {
+        "name": "Capcut",
+        "url": "https://www.capcut.com/",
+        "description": "I use Capcut to edit my videos."
       }
     ]
   },
