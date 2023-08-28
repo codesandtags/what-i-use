@@ -21,6 +21,7 @@ html {
   --color-card: #f5f5f5;
   --color-category-title-bg: #333;
   --color-category-title-text: #eee;
+  --color-background-header: rgba(230, 230, 230, 0.9);
 }
 
 body {
@@ -39,13 +40,32 @@ body.dark-mode {
   --color-link: #fbb51e;
   --color-card: #444444;
   --color-category-title-bg: #222;
-  --color-category-title-text: rgb(51, 214, 51);
+  --color-category-title-text: #fbb51e;
+  --color-background-header: rgba(10, 10, 10, 0.9);
 }
 
 .hightlight {
-  background-color: var(--color-link);
-  padding: 0.2rem 0.4rem;
-  color: var(--color-text-inverse);
+  padding: 5px 5px;
+  background: linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: all 300ms ease-in;
+}
+
+.hightlight:hover {
+  background-color: var(--color-text-inverse);
+  color: var(--color-link);
 }
 
 #root {
@@ -62,6 +82,10 @@ body.dark-mode {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+}
+
+#header-container {
+  margin-top: 7rem;
 }
 
 #main-container {
@@ -86,9 +110,10 @@ nav h1 {
 .header-image img {
   border-radius: 50%;
   width: 100%;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 200px;
+  max-height: 200px;
   margin: 3rem 0;
+  background-size: cover;
 }
 
 .header-text {
@@ -107,7 +132,12 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: var(--color-border);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--color-background-header);
+  z-index: 1;
 }
 
 #top-banner a {
