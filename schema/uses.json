@@ -130,6 +130,16 @@
         "name": "Live Preview",
         "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server",
         "description": "I use Live Preview as my VS Code live preview HTML."
+      },
+      {
+        "name": "Error lens",
+        "url": "https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens",
+        "description": "I use Error lens as my VS Code error lens."
+      },
+      {
+        "name": "Git Lens",
+        "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
+        "description": "I use Git Lens as my VS Code git lens."
       }
     ]
   },
