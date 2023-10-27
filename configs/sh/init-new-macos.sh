@@ -26,7 +26,7 @@ brew install git
 brew install --cask warp
 
 # Install Oh My Zsh
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install Python 3 from Homebrew
 brew install python@3.12
@@ -34,8 +34,14 @@ brew install python@3.12
 # Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
+# Uses nvm right away
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 # Install last stable Node.js version
 nvm install node
+nvm install v20.9.0
 nvm list
 
 # Install Yarn from npm

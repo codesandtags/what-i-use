@@ -1,4 +1,5 @@
-# Welcome message for codesandtags
+# This file should be included into .zshrc
+# Welcome message for codesandtags.
 echo "  _    _                            _____          _       "
 echo " | |  | |                          / ____|        | |      "
 echo " | |__| | __ _ _ __  _ __  _   _  | |     ___   __| | ___  "
