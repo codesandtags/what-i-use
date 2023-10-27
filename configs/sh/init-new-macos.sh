@@ -2,6 +2,17 @@
 # Configuration to setup a new machine based on my preferences
 ##
 
+# Creating folder structure
+cd ~/Documents
+mkdir -p codesandtags/code
+mkdir -p codesandtags/design
+mkdir -p codesandtags/tutorials
+mkdir -p codesandtags/projects
+mkdir -p codesandtags/labs
+mkdir -p codesandtags/videos
+
+echo "Folder structure created! 📂"
+
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
