@@ -30,6 +30,16 @@ body {
   color: var(--color-text);
 }
 
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body.dark-mode {
   /* Dark mode */
   --color-background: #111;

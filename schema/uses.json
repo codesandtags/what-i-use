@@ -17,27 +17,22 @@
         "description": "I use Warp to manage my local development environment as an alternative to iTerm2."
       },
       {
-        "name": "Postman",
-        "url": "https://www.postman.com/",
-        "description": "I use Postman to test my APIs."
-      },
-      {
         "name": "Docker Desktop",
         "url": "https://www.docker.com/products/docker-desktop",
         "description": "I use Docker Desktop to run my local docker containers or pods on Kubernetes."
       },
       {
-        "name": "Chrome",
-        "url": "https://www.google.com/chrome/",
-        "description": "I use Chrome as my default browser."
+        "name": "Brave browser",
+        "url": "https://brave.com/",
+        "description": "I use Brave browser as my main browser. I moved from Chrome, so I love the privacy and ad blocker features."
+      },
+      {
+        "name": "Thunder Client",
+        "url": "https://www.thunderclient.io/",
+        "description": "I use Thunder Client as my REST client."
       }
     ],
     "🎬 Video": [
-      {
-        "name": "invideo",
-        "url": "https://invideo.io/",
-        "description": "I use invideo to create my videos."
-      },
       {
         "name": "OBS",
         "url": "https://obsproject.com/",
@@ -53,9 +48,9 @@
   "Hardware": {
     "💻 Computer": [
       {
-        "name": "MacBook Pro 2015",
-        "url": "https://support.apple.com/kb/SP715?locale=en_US",
-        "description": "I use a MacBook Pro 2015 as my main computer."
+        "name": "MacBook Pro M3",
+        "url": "https://www.apple.com/macbook-pro-13/",
+        "description": "I use a MacBook Pro M3 as my main computer."        
       }
     ],
     "📱 Phone": [
@@ -122,11 +117,6 @@
         "description": "I use Markdown All in One as my VS Code markdown editor."
       },
       {
-        "name": "Markdownlint",
-        "url": "https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint",
-        "description": "I use Markdownlint as my VS Code markdown linter."
-      },
-      {
         "name": "Live Preview",
         "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server",
         "description": "I use Live Preview as my VS Code live preview HTML."
@@ -137,9 +127,9 @@
         "description": "I use Error lens as my VS Code error lens."
       },
       {
-        "name": "Git Lens",
-        "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
-        "description": "I use Git Lens as my VS Code git lens."
+        "name": "Github Copilot",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
+        "description": "I use Github Copilot as my VS Code AI assistant."
       }
     ]
   },
@@ -161,14 +151,13 @@
         "description": "Recently I bought a membership to ZeroToMastery to learn new technologies, because to me are the best courses in the market."
       },
       {
-        "name": "Platzi",
-        "url": "https://platzi.com/",
-        "description": "I often watch platzi's youtube videos to stay up to date in some topics"
-      },
-      {
         "name": "Duolingo",
         "url": "https://www.duolingo.com/",
         "description": "I use Duolingo to learn new languages."
+      },{
+        "name": "Goodreads",
+        "url": "https://goodreads.com/codesandtags",
+        "description": "I love reading to learn new things. I use Goodreads to track my reading progress."
       }
     ],
     "✅ Productivity": [
@@ -176,11 +165,6 @@
         "name": "TodoIst",
         "url": "https://todoist.com/",
         "description": "I use TodoIst to manage my tasks and connect it with my Google Calendar."
-      },
-      {
-        "name": "Raycast",
-        "url": "https://www.raycast.com/",
-        "description": "Recently I've started using raycast to automate some workflows and snipets on my Macbook."
       }
     ]
   }
