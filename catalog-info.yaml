@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: what-i-use
+  description: A component to store and display the things I use
+spec:
+  type: website
+  lifecycle: production
+  owner: user:edwin.torres
