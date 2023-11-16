@@ -30,16 +30,6 @@ body {
   color: var(--color-text);
 }
 
-a {
-  color: var(--color-link);
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 body.dark-mode {
   /* Dark mode */
   --color-background: #111;
@@ -254,4 +244,14 @@ nav h1 {
 #footer img {
   vertical-align: middle;
   margin-left: 5px;
+}
+
+a, a:visited {
+  color: var(--color-link);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
 }

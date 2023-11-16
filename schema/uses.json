@@ -7,11 +7,6 @@
         "description": "Since 3 years ago I moved from IntelliJ to VSCode."
       },
       {
-        "name": "iTerm2",
-        "url": "https://www.iterm2.com/",
-        "description": "I use iTerm2 as my terminal emulator."
-      },
-      {
         "name": "Warp",
         "url": "https://www.warp.dev/",
         "description": "I use Warp to manage my local development environment as an alternative to iTerm2."

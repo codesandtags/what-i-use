@@ -10,10 +10,6 @@ This is a list of things I use in my daily life as a Developer and Human.
   - *Description:* Since 3 years ago I moved from IntelliJ to VSCode.
   - *Link:* [Visual Studio Code](https://code.visualstudio.com/)
 
-- **iTerm2**
-  - *Description:* I use iTerm2 as my terminal emulator.
-  - *Link:* [iTerm2](https://www.iterm2.com/)
-
 - **Warp**
   - *Description:* I use Warp to manage my local development environment as an alternative to iTerm2.
   - *Link:* [Warp](https://www.warp.dev/)
