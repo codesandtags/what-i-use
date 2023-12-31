@@ -2,6 +2,21 @@
 
 This is a list of things I use in my daily life as a Developer and Human.
 
+## How to use
+
+- You can use this list as a reference to find new tools or products.
+- You can use this list to create your own list.
+
+### Steps
+
+1. Fork this repository and edit the README.md file.
+2. Add your own tools or products changing the content of `schema/uses.json` file.
+3. Adapt the `schema/uses.json` file to your own needs.
+4. Deploy your own list using [Vercel](https://vercel.com/) or [Github Pages](https://pages.github.com/).
+5. Optionally you can edit this README.md file to add your own list.
+
+## 📝 Table of Contents
+
 # Software
 
 ## 🧑‍💻 Development

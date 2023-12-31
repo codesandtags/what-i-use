@@ -38,7 +38,7 @@ body.dark-mode {
   --color-secondary-text: #cccccc;
   --color-border: #444444;
   --color-link: #fbb51e;
-  --color-card: #444444;
+  --color-card: #333;
   --color-category-title-bg: #222;
   --color-category-title-text: #fbb51e;
   --color-background-header: rgba(10, 10, 10, 0.9);
@@ -246,7 +246,8 @@ nav h1 {
   margin-left: 5px;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: var(--color-link);
   text-decoration: none;
   cursor: pointer;
@@ -254,4 +255,20 @@ a, a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.announcement {
+  margin-top: 2rem;
+  padding: 10px;
+  color: var(--color-secondary-text);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.announcement p {
+  margin-bottom: 2rem;
 }
