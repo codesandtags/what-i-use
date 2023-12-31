@@ -45,7 +45,7 @@
       {
         "name": "MacBook Pro M3",
         "url": "https://www.apple.com/macbook-pro-13/",
-        "description": "I use a MacBook Pro M3 as my main computer."        
+        "description": "I use a MacBook Pro M3 as my main computer."
       }
     ],
     "📱 Phone": [
@@ -125,6 +125,11 @@
         "name": "Github Copilot",
         "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot",
         "description": "I use Github Copilot as my VS Code AI assistant."
+      },
+      {
+        "name": "Markmap",
+        "url": "https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode",
+        "description": "I use Markmap as my VS Code mind map."
       }
     ]
   },
@@ -149,7 +154,8 @@
         "name": "Duolingo",
         "url": "https://www.duolingo.com/",
         "description": "I use Duolingo to learn new languages."
-      },{
+      },
+      {
         "name": "Goodreads",
         "url": "https://goodreads.com/codesandtags",
         "description": "I love reading to learn new things. I use Goodreads to track my reading progress."
@@ -160,6 +166,16 @@
         "name": "TodoIst",
         "url": "https://todoist.com/",
         "description": "I use TodoIst to manage my tasks and connect it with my Google Calendar."
+      },
+      {
+        "name": "Notion",
+        "url": "https://www.notion.so/",
+        "description": "I use Notion to manage my notes and projects."
+      },
+      {
+        "name": "Dark Mode Enabler",
+        "url": "https://chromewebstore.google.com/detail/dark-mode-enabler/jpgjmidladomebfdpanhbeodbmkibdcp?hl=en-US",
+        "description": "I use Dark Mode Enabler to enable dark mode on websites."
       }
     ]
   }
