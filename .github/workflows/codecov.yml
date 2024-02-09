@@ -1,4 +1,24 @@
-- name: Upload coverage reports to Codecov
-  uses: codecov/codecov-action@v3
-  env:
-    CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+name: Code Coverage
+
+on: [push, pull_request]
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20' # Specify your Node.js version
+    - name: Install dependencies
+      run: npm install
+    - name: Run tests with coverage
+      run: npm run test:coverage
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      #with:
+        # token is not required for public repos
+        #file: ./coverage/lcov.info # Adjust to the location of your coverage report
+        #flags: unittests # Optional
+        #name: codecov-umbrella # Optional

@@ -1,0 +1,13 @@
+{
+  "name": "what-i-use",
+  "version": "1.0.0",
+  "description": "This is a list of things I use in my daily life as a Developer and Human.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test:coverage": "echo please add your test."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
