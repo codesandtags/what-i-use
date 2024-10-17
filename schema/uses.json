@@ -130,6 +130,11 @@
         "name": "Markmap",
         "url": "https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode",
         "description": "I use Markmap as my VS Code mind map."
+      },
+      {
+        "name": "Jest",
+        "url": "https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest",
+        "description": "Use Facebook's Jest With Pleasure."
       }
     ]
   },
