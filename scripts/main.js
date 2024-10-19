@@ -1,3 +1,4 @@
+//@ts-check
 let mainContainer = document.getElementById("main-container");
 let darkModeIcon = document.querySelector(".dark-mode-icon");
 
@@ -113,11 +114,12 @@ function detectDarkMode() {
   }
 }
 
-document
-  .getElementById("dark-mode-link")
-  .addEventListener("click", function (event) {
+const darkModeLink = document.getElementById("dark-mode-link");
+if (darkModeLink) {
+  darkModeLink.addEventListener("click", function (event) {
     event.preventDefault();
     toggleDarkMode();
   });
+}
 
 detectDarkMode();
